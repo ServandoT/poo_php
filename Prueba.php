@@ -7,6 +7,7 @@
 
     $productofisico = new ProductoFisico('Teléfono', 1000, 0.5);
     echo "Nombre: " . $productofisico->getNombre() . " .Precio: " . $productofisico->getNombre() . " .Precio final: " . $productofisico->calcularPrecioFinal();
+    
 ?>
 
 <ol>
