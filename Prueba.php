@@ -1,6 +1,6 @@
 <?php
-    require_once 'Cliente.php';
-    require_once 'ProductoFisico.php';
+    require_once 'Modelo/Cliente.php';
+    require_once 'Modelo/ProductoFisico.php';
 
     $c1 = new Cliente('Pablo Mayo');
     $c2 = new Cliente('Carlos González');
